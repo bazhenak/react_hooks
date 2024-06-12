@@ -7,7 +7,8 @@ const UseHooks = () => {
     const inputRef = useRef(null);
 
     const handleFocusInput = () => {
-        ref.current.focus();
+        setCounter(() => counter + 1);
+        inputRef.current.value = counter;
     };
 
     // const handleClick = useCallback(() => {
