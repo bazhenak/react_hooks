@@ -1,0 +1,11 @@
+.home-page-container {
+    color: green;
+    height: min-content;
+}
+
+.home-page-container__item-container {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 10px;
+}

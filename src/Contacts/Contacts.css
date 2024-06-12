@@ -1,0 +1,15 @@
+.button {
+    padding-top: 100 px;
+    color: blue;
+    background-color: white;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+
+}
+
+.contacts-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
